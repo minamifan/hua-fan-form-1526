@@ -1,0 +1,113 @@
+body {
+    font-size: 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    color:#2c2c2c;
+}
+main{
+    padding:3rem;
+    background-color: #DDD;
+    border-radius: 0.3rem;
+    border: 1px solid #b6b6b6;
+    margin: 0.5rem;
+}
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    padding:2rem;
+    background-color:#F5F5F5;
+    border-radius: 0.3rem;
+    border: 1px solid #dedddd;
+    width: 18rem;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+legend {
+    font-size: 2rem;
+  }
+  
+#subscribe label, #subscribe input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscribe label {
+    display: block;
+    margin: 0.25rem;
+}
+#subscribe .box {
+    margin: 0 0 1rem 0;
+}
+#subcribe-btn input {
+    padding: 0.5rem;
+    border: 1px solid #a19f9f;
+}
+#fullname{
+    /* width:18rem; */
+    width: 100%;
+    min-width: 0%;
+    border-radius: 0.3rem;
+    border: 1px solid #a19f9f;
+    height: 1.5rem;
+}
+#email{
+    /* width: 18rem; */
+    width: 100%;
+    min-width: 0%;
+    border-radius: 0.3rem;
+    border: 1px solid #a19f9f;
+    height: 1.5rem;
+}
+
+textarea {
+    width:100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #afafaf;
+    min-width: 100%;
+    border-radius: 0.3rem;
+  }
+  
+  #subcribe-btn{
+    width: 15rem;
+    background-color: #6495ED;
+    color:#F5F5F5;
+  }
+
+@media (max-width: 25rem) {
+    #infro{
+        flex-direction: column;
+     }
+     #subcribe-btn{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+      }
+  }
+@media (min-width: 25rem) and (max-width: 50rem) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #infro{
+          display: flex;
+          justify-content:space-between;  
+      }
+     #whole{
+        margin: 0.5rem;
+     }
+}
+@media screen and (min-width: 50.063rem) {
+    main {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #infro{
+        display: flex;
+        justify-content:space-between;
+      
+    }
+    
+  }
